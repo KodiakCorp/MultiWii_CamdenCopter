@@ -595,14 +595,14 @@
     #define RX_SERIAL_PORT           1
   #endif
   //RX PIN assignment inside the port //for PORTK
-  #define THROTTLEPIN                0  //PIN 62 =  PIN A8
-  #define ROLLPIN                    1  //PIN 63 =  PIN A9
-  #define PITCHPIN                   2  //PIN 64 =  PIN A10
-  #define YAWPIN                     3  //PIN 65 =  PIN A11
-  #define AUX1PIN                    4  //PIN 66 =  PIN A12
-  #define AUX2PIN                    5  //PIN 67 =  PIN A13
-  #define AUX3PIN                    6  //PIN 68 =  PIN A14
-  #define AUX4PIN                    7  //PIN 69 =  PIN A15
+  #define THROTTLEPIN                A8  //PIN 62 =  PIN A8
+  #define ROLLPIN                    A9  //PIN 63 =  PIN A9
+  #define PITCHPIN                   A10  //PIN 64 =  PIN A10
+  #define YAWPIN                     A11  //PIN 65 =  PIN A11
+  #define AUX1PIN                    A12  //PIN 66 =  PIN A12
+  #define AUX2PIN                    A13  //PIN 67 =  PIN A13
+  #define AUX3PIN                    A14  //PIN 68 =  PIN A14
+  #define AUX4PIN                    A15  //PIN 69 =  PIN A15
   #define V_BATPIN                   A0    // Analog PIN 0
   #define PSENSORPIN                 A2    // Analog PIN 2
   #define PCINT_PIN_COUNT            8
